@@ -244,6 +244,7 @@ namespace BombThingy
             btn2YouAre.Visible = true;
             btn2YouRe.Visible = true;
             btn2Your.Visible = true;
+            btnStage.Visible = true;
 
         }
 
@@ -385,6 +386,12 @@ namespace BombThingy
         private void btn2Your_Click(object sender, EventArgs e)
         {
             SolutionBox.Text = "UH UH, YOU ARE, UH HUH, YOUR, NEXT, UR, SURE, U, YOU'RE, YOU, WHAT?, HOLD, LIKE, DONE";
+        }
+
+        private void btnStage_Click(object sender, EventArgs e)
+        {
+            new WhosOnFirstForm().Show();
+            this.Dispose();
         }
     }
 }

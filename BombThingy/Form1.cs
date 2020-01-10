@@ -76,6 +76,11 @@ namespace BombThingy
         {
             new PasswordForm().Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new KnobForm().Show();
+        }
     }
 
     public static class Bomb

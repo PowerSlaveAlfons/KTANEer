@@ -213,6 +213,16 @@ namespace BombThingy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Knob {
+            get {
+                object obj = ResourceManager.GetObject("Knob", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lambda {
             get {
                 object obj = ResourceManager.GetObject("Lambda", resourceCulture);

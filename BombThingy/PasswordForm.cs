@@ -16,7 +16,8 @@ namespace BombThingy
         {
             InitializeComponent();
             SolutionBox.Items.Clear();
-            PasswordModule.PossiblePasswords = PasswordModule.CorrectPasswords;
+            PasswordModule.PossiblePasswords.Clear();
+            PasswordModule.PossiblePasswords.AddRange(PasswordModule.CorrectPasswords);
             foreach (string a in PasswordModule.PossiblePasswords)
                 SolutionBox.Items.Add(a);
         }
@@ -24,31 +25,37 @@ namespace BombThingy
         private void Letter1Box1_TextChanged(object sender, EventArgs e)
         {
             Letter1Box1.Enabled = false;
+            Letter1Box1.Text = Letter1Box1.Text.ToLower();
         }
 
         private void Letter1Box2_TextChanged(object sender, EventArgs e)
         {
             Letter1Box2.Enabled = false;
+            Letter1Box2.Text = Letter1Box2.Text.ToLower();
         }
 
         private void Letter1Box3_TextChanged(object sender, EventArgs e)
         {
             Letter1Box3.Enabled = false;
+            Letter1Box3.Text = Letter1Box3.Text.ToLower();
         }
 
         private void Letter1Box4_TextChanged(object sender, EventArgs e)
         {
             Letter1Box4.Enabled = false;
+            Letter1Box4.Text = Letter1Box4.Text.ToLower();
         }
 
         private void Letter1Box5_TextChanged(object sender, EventArgs e)
         {
             Letter1Box5.Enabled = false;
+            Letter1Box5.Text = Letter1Box5.Text.ToLower();
         }
 
         private void Letter1Box6_TextChanged(object sender, EventArgs e)
         {
             Letter1Box6.Enabled = false;
+            Letter1Box6.Text = Letter1Box6.Text.ToLower();
             UpdateLetter(1);
 
         }
@@ -56,124 +63,148 @@ namespace BombThingy
         private void Letter2Box1_TextChanged(object sender, EventArgs e)
         {
             Letter2Box1.Enabled = false;
+            Letter2Box1.Text = Letter2Box1.Text.ToLower();
         }
 
         private void Letter2Box2_TextChanged(object sender, EventArgs e)
         {
             Letter2Box2.Enabled = false;
+            Letter2Box2.Text = Letter2Box2.Text.ToLower();
         }
 
         private void Letter2Box3_TextChanged(object sender, EventArgs e)
         {
             Letter2Box3.Enabled = false;
+            Letter2Box3.Text = Letter2Box3.Text.ToLower();
         }
 
         private void Letter2Box4_TextChanged(object sender, EventArgs e)
         {
             Letter2Box4.Enabled = false;
+            Letter2Box4.Text = Letter2Box4.Text.ToLower();
         }
 
         private void Letter2Box5_TextChanged(object sender, EventArgs e)
         {
             Letter2Box5.Enabled = false;
+            Letter2Box5.Text = Letter2Box5.Text.ToLower();
         }
 
         private void Letter2Box6_TextChanged(object sender, EventArgs e)
         {
             Letter2Box6.Enabled = false;
+            Letter2Box6.Text = Letter2Box6.Text.ToLower();
             UpdateLetter(2);
         }
 
         private void Letter3Box1_TextChanged(object sender, EventArgs e)
         {
             Letter3Box1.Enabled = false;
+            Letter3Box1.Text = Letter3Box1.Text.ToLower();
         }
 
         private void Letter3Box2_TextChanged(object sender, EventArgs e)
         {
             Letter3Box2.Enabled = false;
+            Letter3Box2.Text = Letter3Box2.Text.ToLower();
         }
 
         private void Letter3Box3_TextChanged(object sender, EventArgs e)
         {
             Letter3Box3.Enabled = false;
+            Letter3Box3.Text = Letter3Box3.Text.ToLower();
         }
 
         private void Letter3Box4_TextChanged(object sender, EventArgs e)
         {
             Letter3Box4.Enabled = false;
+            Letter3Box4.Text = Letter3Box4.Text.ToLower();
         }
 
         private void Letter3Box5_TextChanged(object sender, EventArgs e)
         {
             Letter3Box5.Enabled = false;
+            Letter3Box5.Text = Letter3Box5.Text.ToLower();
         }
 
         private void Letter3Box6_TextChanged(object sender, EventArgs e)
         {
             Letter3Box6.Enabled = false;
+            Letter3Box6.Text = Letter3Box6.Text.ToLower();
             UpdateLetter(3);
         }
 
         private void Letter4Box1_TextChanged(object sender, EventArgs e)
         {
             Letter4Box1.Enabled = false;
+            Letter4Box1.Text = Letter4Box1.Text.ToLower();
         }
 
         private void Letter4Box2_TextChanged(object sender, EventArgs e)
         {
             Letter4Box2.Enabled = false;
+            Letter4Box2.Text = Letter4Box2.Text.ToLower();
         }
 
         private void Letter4Box3_TextChanged(object sender, EventArgs e)
         {
             Letter4Box3.Enabled = false;
+            Letter4Box3.Text = Letter4Box3.Text.ToLower();
         }
 
         private void Letter4Box4_TextChanged(object sender, EventArgs e)
         {
             Letter4Box4.Enabled = false;
+            Letter4Box4.Text = Letter4Box4.Text.ToLower();
         }
 
         private void Letter4Box5_TextChanged(object sender, EventArgs e)
         {
             Letter4Box5.Enabled = false;
+            Letter4Box5.Text = Letter4Box5.Text.ToLower();
         }
 
         private void Letter4Box6_TextChanged(object sender, EventArgs e)
         {
             Letter4Box6.Enabled = false;
+            Letter4Box6.Text = Letter4Box6.Text.ToLower();
             UpdateLetter(4);
         }
 
         private void Letter5Box1_TextChanged(object sender, EventArgs e)
         {
             Letter5Box1.Enabled = false;
+            Letter5Box1.Text = Letter5Box1.Text.ToLower();
         }
 
         private void Letter5Box2_TextChanged(object sender, EventArgs e)
         {
             Letter5Box2.Enabled = false;
+            Letter5Box2.Text = Letter5Box2.Text.ToLower();
         }
 
         private void Letter5Box3_TextChanged(object sender, EventArgs e)
         {
             Letter5Box3.Enabled = false;
+            Letter5Box3.Text = Letter5Box3.Text.ToLower();
         }
 
         private void Letter5Box4_TextChanged(object sender, EventArgs e)
         {
             Letter5Box4.Enabled = false;
+            Letter5Box4.Text = Letter5Box4.Text.ToLower();
         }
 
         private void Letter5Box5_TextChanged(object sender, EventArgs e)
         {
             Letter5Box5.Enabled = false;
+            Letter5Box5.Text = Letter5Box5.Text.ToLower();
         }
 
         private void Letter5Box6_TextChanged(object sender, EventArgs e)
         {
             Letter5Box6.Enabled = false;
+            Letter5Box6.Text = Letter5Box6.Text.ToLower();
             UpdateLetter(5);
         }
 
@@ -211,7 +242,7 @@ namespace BombThingy
             {
                 foreach (string a in PasswordModule.PossiblePasswords.ToList()) //mutating the list itself while doing a foreach on it is no bueno
                 {
-                    if (!LetterList.Contains(a[Position - 1]) && PasswordModule.PossiblePasswords.Contains(a))
+                    if (!LetterList.Contains(a[Position-1]) && PasswordModule.PossiblePasswords.Contains(a))
                     {
                         PasswordModule.PossiblePasswords.Remove(a);
                     }
@@ -237,6 +268,8 @@ namespace BombThingy
             "could", "every", "first", "found", "great", "house", "large", "learn", "never", "other", "place",
             "plant", "point", "right", "small", "sound", "spell", "still", "study","their", "there",
             "these", "thing", "think", "three", "water", "where", "which", "world", "would", "write" };
+
+
 
 
     }

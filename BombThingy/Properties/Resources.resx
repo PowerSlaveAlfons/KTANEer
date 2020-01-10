@@ -124,6 +124,9 @@
   <data name="Maze8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maze8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AT.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,8 +136,14 @@
   <data name="Maze" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maze.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RJ45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RJ45.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Maze3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maze3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Password.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smiley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Smiley.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MirroredCDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MirroredCDot.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +151,8 @@
   <data name="Paragraph" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Paragraph.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="QStraight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\QStraight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NReverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NReverse.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SimonSays" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SimonSays.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,20 +163,14 @@
   <data name="Omega" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Omega.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StarEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StarEmpty.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StereoRCA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StereoRCA.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Trident" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trident.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bWithT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bWithT.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhosOnFirst" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhosOnFirst.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Memory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Memory.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ae" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ae.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,14 +181,14 @@
   <data name="Maze5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maze5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3R" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3R.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDot.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cat.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Maze9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maze9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Memory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Memory.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Maze6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maze6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +196,8 @@
   <data name="Wires" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wires.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CDot.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RJ45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RJ45.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Copyright" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Copyright.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +205,8 @@
   <data name="Euro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Euro.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DVID" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DVID.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Maze2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maze2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="QuestionMark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\QuestionMark.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,8 +220,8 @@
   <data name="SequenceWires" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SequenceWires.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Smiley" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Smiley.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StarEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarEmpty.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3Snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3Snake.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +232,8 @@
   <data name="NTilted" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NTilted.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NReverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NReverse.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StereoRCA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StereoRCA.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sigma.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,11 +250,11 @@
   <data name="QHandWritten" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\QHandWritten.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Maze2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maze2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DVID" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DVID.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Trident" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Trident.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="QStraight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QStraight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HHandWritten" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HHandWritten.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,19 +265,19 @@
   <data name="Serial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Serial.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Morse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Morse.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3R.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Parrallel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Parrallel.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Maze3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maze3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Maze9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maze9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AT.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Morse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Morse.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Password.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Knob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Knob.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

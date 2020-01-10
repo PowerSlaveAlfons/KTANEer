@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnInit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnPassword = new System.Windows.Forms.Button();
             this.btnMaze = new System.Windows.Forms.Button();
             this.btnSequenceWires = new System.Windows.Forms.Button();
@@ -51,6 +52,18 @@
             this.btnInit.Text = "Init";
             this.btnInit.UseVisualStyleBackColor = true;
             this.btnInit.Click += new System.EventHandler(this.btnInit_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::BombThingy.Properties.Resources.Knob;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Location = new System.Drawing.Point(296, 100);
+            this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button1.Size = new System.Drawing.Size(86, 82);
+            this.button1.TabIndex = 12;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnPassword
             // 
@@ -187,6 +200,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPassword);
             this.Controls.Add(this.btnMaze);
             this.Controls.Add(this.btnSequenceWires);
@@ -219,6 +233,7 @@
         private System.Windows.Forms.Button btnSequenceWires;
         private System.Windows.Forms.Button btnMaze;
         private System.Windows.Forms.Button btnPassword;
+        private System.Windows.Forms.Button button1;
     }
 }
 

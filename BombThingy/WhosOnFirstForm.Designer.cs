@@ -86,6 +86,7 @@
             this.btn2Done = new System.Windows.Forms.Button();
             this.btn2Blank = new System.Windows.Forms.Button();
             this.SolutionBox = new System.Windows.Forms.TextBox();
+            this.btnStage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEmpty
@@ -689,11 +690,23 @@
             this.SolutionBox.Size = new System.Drawing.Size(776, 20);
             this.SolutionBox.TabIndex = 57;
             // 
+            // btnStage
+            // 
+            this.btnStage.Location = new System.Drawing.Point(602, 262);
+            this.btnStage.Name = "btnStage";
+            this.btnStage.Size = new System.Drawing.Size(75, 23);
+            this.btnStage.TabIndex = 58;
+            this.btnStage.Text = "Next Stage";
+            this.btnStage.UseVisualStyleBackColor = true;
+            this.btnStage.Visible = false;
+            this.btnStage.Click += new System.EventHandler(this.btnStage_Click);
+            // 
             // WhosOnFirstForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnStage);
             this.Controls.Add(this.SolutionBox);
             this.Controls.Add(this.btn2Your);
             this.Controls.Add(this.btn2YouRe);
@@ -819,5 +832,6 @@
         private System.Windows.Forms.Button btn2Done;
         private System.Windows.Forms.Button btn2Blank;
         private System.Windows.Forms.TextBox SolutionBox;
+        private System.Windows.Forms.Button btnStage;
     }
 }
