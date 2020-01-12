@@ -142,6 +142,9 @@
   <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Password.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SkewedSlots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SkewedSlots2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Smiley" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Smiley.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -274,10 +277,13 @@
   <data name="Maze9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maze9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Knob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Knob.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Morse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Morse.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Knob" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Knob.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BlindAlley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlindAlley.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

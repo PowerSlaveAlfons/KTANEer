@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BombThingy", "BombThingy\BombThingy.csproj", "{4608F814-B0E0-410F-8E61-A40A18BEEDFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTANEer", "BombThingy\KTANEer.csproj", "{4608F814-B0E0-410F-8E61-A40A18BEEDFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

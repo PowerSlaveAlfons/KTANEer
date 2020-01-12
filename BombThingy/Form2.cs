@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static BombThingy.Bomb;
+using static KTANEer.Bomb;
 
-namespace BombThingy
+namespace KTANEer
 {
     public partial class InitForm : Form
     {
@@ -20,7 +20,14 @@ namespace BombThingy
 
         private void btnDone_Click(object sender, EventArgs e)
         {
-            Bomb.Serial = SerialBox.Text;
+            Bomb.Serial = SerialBox.Text.ToLower();
+            if (Bomb.Serial.Length != 6)
+            {
+                MessageBox.Show("Your Serial Number does not consist of 6 digits", "Serial Number Length Error",
+                                 MessageBoxButtons.OK,
+                                 MessageBoxIcon.Question);
+                return;
+            }
             if (string.IsNullOrWhiteSpace(BatteryBox.Text))
                 Bomb.Batteries = 0;
             else
@@ -108,14 +115,14 @@ namespace BombThingy
 
         private void btnAddLit_Click(object sender, EventArgs e)
         {
-            Bomb.Indicators.Add(Tuple.Create(IndicatorTextBox.Text, true));
+            Bomb.Indicators.Add(Tuple.Create(IndicatorTextBox.Text.ToLower(), true));
             reCalculateIndBox();
             IndicatorTextBox.Clear();
         }
 
         private void btnAddUnlit_Click(object sender, EventArgs e)
         {
-            Bomb.Indicators.Add(Tuple.Create(IndicatorTextBox.Text, false));
+            Bomb.Indicators.Add(Tuple.Create(IndicatorTextBox.Text.ToLower(), false));
             reCalculateIndBox();
             IndicatorTextBox.Clear();
         }

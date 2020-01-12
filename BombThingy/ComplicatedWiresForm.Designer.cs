@@ -1,4 +1,4 @@
-﻿namespace BombThingy
+﻿namespace KTANEer
 {
     partial class ComplicatedWiresForm
     {

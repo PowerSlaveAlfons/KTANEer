@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BombThingy.Properties {
+namespace KTANEer.Properties {
     using System;
     
     
@@ -96,6 +96,16 @@ namespace BombThingy.Properties {
         internal static System.Drawing.Bitmap AT {
             get {
                 object obj = ResourceManager.GetObject("AT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BlindAlley {
+            get {
+                object obj = ResourceManager.GetObject("BlindAlley", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +516,16 @@ namespace BombThingy.Properties {
         internal static System.Drawing.Bitmap SimonSays {
             get {
                 object obj = ResourceManager.GetObject("SimonSays", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SkewedSlots {
+            get {
+                object obj = ResourceManager.GetObject("SkewedSlots", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

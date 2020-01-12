@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BombThingy
+namespace KTANEer
 {
     public partial class MemoryForm : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace BombThingy
+﻿namespace KTANEer
 {
     partial class Form1
     {
@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnInit = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBlindAlley = new System.Windows.Forms.Button();
+            this.btnSkewedSlots = new System.Windows.Forms.Button();
+            this.btnKnob = new System.Windows.Forms.Button();
             this.btnPassword = new System.Windows.Forms.Button();
             this.btnMaze = new System.Windows.Forms.Button();
             this.btnSequenceWires = new System.Windows.Forms.Button();
@@ -53,21 +56,45 @@
             this.btnInit.UseVisualStyleBackColor = true;
             this.btnInit.Click += new System.EventHandler(this.btnInit_Click);
             // 
-            // button1
+            // btnBlindAlley
             // 
-            this.button1.BackgroundImage = global::BombThingy.Properties.Resources.Knob;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(296, 100);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(86, 82);
-            this.button1.TabIndex = 12;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnBlindAlley.BackgroundImage = global::KTANEer.Properties.Resources.BlindAlley;
+            this.btnBlindAlley.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnBlindAlley.Location = new System.Drawing.Point(480, 100);
+            this.btnBlindAlley.Name = "btnBlindAlley";
+            this.btnBlindAlley.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btnBlindAlley.Size = new System.Drawing.Size(86, 82);
+            this.btnBlindAlley.TabIndex = 14;
+            this.btnBlindAlley.UseVisualStyleBackColor = true;
+            this.btnBlindAlley.Click += new System.EventHandler(this.btnBlindAlley_Click);
+            // 
+            // btnSkewedSlots
+            // 
+            this.btnSkewedSlots.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSkewedSlots.BackgroundImage")));
+            this.btnSkewedSlots.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSkewedSlots.Location = new System.Drawing.Point(388, 100);
+            this.btnSkewedSlots.Name = "btnSkewedSlots";
+            this.btnSkewedSlots.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btnSkewedSlots.Size = new System.Drawing.Size(86, 82);
+            this.btnSkewedSlots.TabIndex = 13;
+            this.btnSkewedSlots.UseVisualStyleBackColor = true;
+            this.btnSkewedSlots.Click += new System.EventHandler(this.btnSkewedSlots_Click);
+            // 
+            // btnKnob
+            // 
+            this.btnKnob.BackgroundImage = global::KTANEer.Properties.Resources.Knob;
+            this.btnKnob.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnKnob.Location = new System.Drawing.Point(296, 100);
+            this.btnKnob.Name = "btnKnob";
+            this.btnKnob.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btnKnob.Size = new System.Drawing.Size(86, 82);
+            this.btnKnob.TabIndex = 12;
+            this.btnKnob.UseVisualStyleBackColor = true;
+            this.btnKnob.Click += new System.EventHandler(this.btnKnob_Click);
             // 
             // btnPassword
             // 
-            this.btnPassword.BackgroundImage = global::BombThingy.Properties.Resources.Password;
+            this.btnPassword.BackgroundImage = global::KTANEer.Properties.Resources.Password;
             this.btnPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPassword.Location = new System.Drawing.Point(204, 100);
             this.btnPassword.Name = "btnPassword";
@@ -79,7 +106,7 @@
             // 
             // btnMaze
             // 
-            this.btnMaze.BackgroundImage = global::BombThingy.Properties.Resources.Maze;
+            this.btnMaze.BackgroundImage = global::KTANEer.Properties.Resources.Maze;
             this.btnMaze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze.Location = new System.Drawing.Point(106, 100);
             this.btnMaze.Name = "btnMaze";
@@ -91,7 +118,7 @@
             // 
             // btnSequenceWires
             // 
-            this.btnSequenceWires.BackgroundImage = global::BombThingy.Properties.Resources.SequenceWires;
+            this.btnSequenceWires.BackgroundImage = global::KTANEer.Properties.Resources.SequenceWires;
             this.btnSequenceWires.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSequenceWires.Location = new System.Drawing.Point(12, 100);
             this.btnSequenceWires.Name = "btnSequenceWires";
@@ -103,7 +130,7 @@
             // 
             // btnComplicatedWires
             // 
-            this.btnComplicatedWires.BackgroundImage = global::BombThingy.Properties.Resources.ComplicatedWires;
+            this.btnComplicatedWires.BackgroundImage = global::KTANEer.Properties.Resources.ComplicatedWires;
             this.btnComplicatedWires.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnComplicatedWires.Location = new System.Drawing.Point(664, 12);
             this.btnComplicatedWires.Name = "btnComplicatedWires";
@@ -115,7 +142,7 @@
             // 
             // btnMorse
             // 
-            this.btnMorse.BackgroundImage = global::BombThingy.Properties.Resources.Morse;
+            this.btnMorse.BackgroundImage = global::KTANEer.Properties.Resources.Morse;
             this.btnMorse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMorse.Location = new System.Drawing.Point(572, 12);
             this.btnMorse.Name = "btnMorse";
@@ -127,7 +154,7 @@
             // 
             // btnMemory
             // 
-            this.btnMemory.BackgroundImage = global::BombThingy.Properties.Resources.Memory;
+            this.btnMemory.BackgroundImage = global::KTANEer.Properties.Resources.Memory;
             this.btnMemory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMemory.Location = new System.Drawing.Point(480, 12);
             this.btnMemory.Name = "btnMemory";
@@ -139,7 +166,7 @@
             // 
             // btnWhosOnFirst
             // 
-            this.btnWhosOnFirst.BackgroundImage = global::BombThingy.Properties.Resources.WhosOnFirst;
+            this.btnWhosOnFirst.BackgroundImage = global::KTANEer.Properties.Resources.WhosOnFirst;
             this.btnWhosOnFirst.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnWhosOnFirst.Location = new System.Drawing.Point(388, 12);
             this.btnWhosOnFirst.Name = "btnWhosOnFirst";
@@ -151,7 +178,7 @@
             // 
             // btnSimonSays
             // 
-            this.btnSimonSays.BackgroundImage = global::BombThingy.Properties.Resources.SimonSays;
+            this.btnSimonSays.BackgroundImage = global::KTANEer.Properties.Resources.SimonSays;
             this.btnSimonSays.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSimonSays.Location = new System.Drawing.Point(296, 12);
             this.btnSimonSays.Name = "btnSimonSays";
@@ -163,7 +190,7 @@
             // 
             // btnKeypad
             // 
-            this.btnKeypad.BackgroundImage = global::BombThingy.Properties.Resources.Keypad;
+            this.btnKeypad.BackgroundImage = global::KTANEer.Properties.Resources.Keypad;
             this.btnKeypad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnKeypad.Location = new System.Drawing.Point(204, 12);
             this.btnKeypad.Name = "btnKeypad";
@@ -175,7 +202,7 @@
             // 
             // btnButton
             // 
-            this.btnButton.BackgroundImage = global::BombThingy.Properties.Resources.Button;
+            this.btnButton.BackgroundImage = global::KTANEer.Properties.Resources.Button;
             this.btnButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnButton.Location = new System.Drawing.Point(106, 12);
             this.btnButton.Name = "btnButton";
@@ -186,7 +213,7 @@
             // 
             // btnWires
             // 
-            this.btnWires.BackgroundImage = global::BombThingy.Properties.Resources.Wires;
+            this.btnWires.BackgroundImage = global::KTANEer.Properties.Resources.Wires;
             this.btnWires.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnWires.Location = new System.Drawing.Point(12, 12);
             this.btnWires.Name = "btnWires";
@@ -199,8 +226,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBlindAlley);
+            this.Controls.Add(this.btnSkewedSlots);
+            this.Controls.Add(this.btnKnob);
             this.Controls.Add(this.btnPassword);
             this.Controls.Add(this.btnMaze);
             this.Controls.Add(this.btnSequenceWires);
@@ -233,7 +263,9 @@
         private System.Windows.Forms.Button btnSequenceWires;
         private System.Windows.Forms.Button btnMaze;
         private System.Windows.Forms.Button btnPassword;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnKnob;
+        private System.Windows.Forms.Button btnSkewedSlots;
+        private System.Windows.Forms.Button btnBlindAlley;
     }
 }
 

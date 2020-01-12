@@ -1,4 +1,4 @@
-﻿namespace BombThingy
+﻿namespace KTANEer
 {
     partial class InitForm
     {
@@ -148,7 +148,7 @@
             // 
             // btnStereoRCA
             // 
-            this.btnStereoRCA.BackgroundImage = global::BombThingy.Properties.Resources.StereoRCA;
+            this.btnStereoRCA.BackgroundImage = global::KTANEer.Properties.Resources.StereoRCA;
             this.btnStereoRCA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStereoRCA.Location = new System.Drawing.Point(516, 306);
             this.btnStereoRCA.Name = "btnStereoRCA";
@@ -159,7 +159,7 @@
             // 
             // btnSerial
             // 
-            this.btnSerial.BackgroundImage = global::BombThingy.Properties.Resources.Serial;
+            this.btnSerial.BackgroundImage = global::KTANEer.Properties.Resources.Serial;
             this.btnSerial.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSerial.Location = new System.Drawing.Point(516, 241);
             this.btnSerial.Name = "btnSerial";
@@ -170,7 +170,7 @@
             // 
             // btnRJ45
             // 
-            this.btnRJ45.BackgroundImage = global::BombThingy.Properties.Resources.RJ45;
+            this.btnRJ45.BackgroundImage = global::KTANEer.Properties.Resources.RJ45;
             this.btnRJ45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnRJ45.Location = new System.Drawing.Point(424, 306);
             this.btnRJ45.Name = "btnRJ45";
@@ -181,7 +181,7 @@
             // 
             // btnPS2
             // 
-            this.btnPS2.BackgroundImage = global::BombThingy.Properties.Resources.PS2;
+            this.btnPS2.BackgroundImage = global::KTANEer.Properties.Resources.PS2;
             this.btnPS2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPS2.Location = new System.Drawing.Point(424, 238);
             this.btnPS2.Name = "btnPS2";
@@ -192,7 +192,7 @@
             // 
             // btnParallel
             // 
-            this.btnParallel.BackgroundImage = global::BombThingy.Properties.Resources.Parrallel;
+            this.btnParallel.BackgroundImage = global::KTANEer.Properties.Resources.Parrallel;
             this.btnParallel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnParallel.Location = new System.Drawing.Point(424, 178);
             this.btnParallel.Name = "btnParallel";
@@ -203,7 +203,7 @@
             // 
             // btnDVID
             // 
-            this.btnDVID.BackgroundImage = global::BombThingy.Properties.Resources.DVID;
+            this.btnDVID.BackgroundImage = global::KTANEer.Properties.Resources.DVID;
             this.btnDVID.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDVID.Location = new System.Drawing.Point(424, 120);
             this.btnDVID.Name = "btnDVID";

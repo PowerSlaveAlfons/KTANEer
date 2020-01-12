@@ -1,4 +1,4 @@
-﻿namespace BombThingy
+﻿namespace KTANEer
 {
     partial class ButtonForm
     {
@@ -42,6 +42,10 @@
             this.btnYellowStrip = new System.Windows.Forms.Button();
             this.btnOtherStrip = new System.Windows.Forms.Button();
             this.OutputBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ButtonStatusBox
@@ -134,7 +138,7 @@
             // 
             // btnBlueStrip
             // 
-            this.btnBlueStrip.Location = new System.Drawing.Point(631, 317);
+            this.btnBlueStrip.Location = new System.Drawing.Point(511, 310);
             this.btnBlueStrip.Name = "btnBlueStrip";
             this.btnBlueStrip.Size = new System.Drawing.Size(75, 23);
             this.btnBlueStrip.TabIndex = 10;
@@ -145,7 +149,7 @@
             // 
             // btnWhiteStrip
             // 
-            this.btnWhiteStrip.Location = new System.Drawing.Point(631, 347);
+            this.btnWhiteStrip.Location = new System.Drawing.Point(511, 339);
             this.btnWhiteStrip.Name = "btnWhiteStrip";
             this.btnWhiteStrip.Size = new System.Drawing.Size(75, 23);
             this.btnWhiteStrip.TabIndex = 11;
@@ -156,7 +160,7 @@
             // 
             // btnYellowStrip
             // 
-            this.btnYellowStrip.Location = new System.Drawing.Point(631, 377);
+            this.btnYellowStrip.Location = new System.Drawing.Point(511, 368);
             this.btnYellowStrip.Name = "btnYellowStrip";
             this.btnYellowStrip.Size = new System.Drawing.Size(75, 23);
             this.btnYellowStrip.TabIndex = 12;
@@ -167,7 +171,7 @@
             // 
             // btnOtherStrip
             // 
-            this.btnOtherStrip.Location = new System.Drawing.Point(631, 407);
+            this.btnOtherStrip.Location = new System.Drawing.Point(511, 397);
             this.btnOtherStrip.Name = "btnOtherStrip";
             this.btnOtherStrip.Size = new System.Drawing.Size(75, 23);
             this.btnOtherStrip.TabIndex = 13;
@@ -184,11 +188,51 @@
             this.OutputBox.Size = new System.Drawing.Size(277, 115);
             this.OutputBox.TabIndex = 14;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(592, 315);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "4 in any Position";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(592, 344);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(84, 13);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "1 in any Position";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(592, 373);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(84, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "5 in any Position";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(592, 402);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(84, 13);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "1 in any Position";
+            // 
             // ButtonForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.OutputBox);
             this.Controls.Add(this.btnOtherStrip);
             this.Controls.Add(this.btnYellowStrip);
@@ -226,5 +270,9 @@
         private System.Windows.Forms.Button btnYellowStrip;
         private System.Windows.Forms.Button btnOtherStrip;
         private System.Windows.Forms.TextBox OutputBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

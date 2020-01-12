@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BombThingy
+namespace KTANEer
 {
     public partial class Form1 : Form
     {
@@ -77,9 +77,19 @@ namespace BombThingy
             new PasswordForm().Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSkewedSlots_Click(object sender, EventArgs e)
+        {
+            new SkewedSlotsForm().Show();
+        }
+
+        private void btnKnob_Click(object sender, EventArgs e)
         {
             new KnobForm().Show();
+        }
+
+        private void btnBlindAlley_Click(object sender, EventArgs e)
+        {
+            new BlindAlleyForm().Show();
         }
     }
 
@@ -96,6 +106,38 @@ namespace BombThingy
         public static Boolean LastDigitOdd = false; //4,5,6 wires     
         public static Boolean HasVowel = false; //Simon Says
         public static int Strikes = 0;
+        public static int GetRightmostSerialDigit()
+        {
+            for (int i = 5; i >= 0; i--)
+            {
+                if (Char.IsDigit(Bomb.Serial[i]))
+                    return Convert.ToInt32(Bomb.Serial[i].ToString());
+            }
+            return -1;
+        }
+        public static int GetLargestSerialDigit()
+        {
+            List<int> Digits = new List<int>();
+            for (int i = 0; i < 6; i++)
+            {
+                if (Char.IsDigit(Bomb.Serial[i]))
+                    Digits.Add(Convert.ToInt32(Bomb.Serial[i].ToString()));
+            }
+            return Digits.Max();
+        }
+
+        public static bool HasEvenDigit()
+        {
+            for (int i = 0; i < 6; i++)
+            {
+                if (Char.IsDigit(Bomb.Serial[i]))
+                {
+                    if ((Convert.ToInt32(Bomb.Serial[i].ToString())) % 2 == 0)
+                        return true;
+                }
+            }
+            return false;
+        }
     }
 
 }

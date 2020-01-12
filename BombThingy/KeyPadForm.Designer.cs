@@ -1,4 +1,4 @@
-﻿namespace BombThingy
+﻿namespace KTANEer
 {
     partial class KeyPadForm
     {
@@ -68,7 +68,7 @@
             // 
             // btnXKI
             // 
-            this.btnXKI.BackgroundImage = global::BombThingy.Properties.Resources.XKI;
+            this.btnXKI.BackgroundImage = global::KTANEer.Properties.Resources.XKI;
             this.btnXKI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnXKI.Location = new System.Drawing.Point(402, 231);
             this.btnXKI.Name = "btnXKI";
@@ -79,7 +79,7 @@
             // 
             // btnTrident
             // 
-            this.btnTrident.BackgroundImage = global::BombThingy.Properties.Resources.Trident;
+            this.btnTrident.BackgroundImage = global::KTANEer.Properties.Resources.Trident;
             this.btnTrident.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTrident.Location = new System.Drawing.Point(324, 231);
             this.btnTrident.Name = "btnTrident";
@@ -90,7 +90,7 @@
             // 
             // btnStarFilled
             // 
-            this.btnStarFilled.BackgroundImage = global::BombThingy.Properties.Resources.StarFilled;
+            this.btnStarFilled.BackgroundImage = global::KTANEer.Properties.Resources.StarFilled;
             this.btnStarFilled.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStarFilled.Location = new System.Drawing.Point(246, 231);
             this.btnStarFilled.Name = "btnStarFilled";
@@ -101,7 +101,7 @@
             // 
             // btnStarEmpty
             // 
-            this.btnStarEmpty.BackgroundImage = global::BombThingy.Properties.Resources.StarEmpty;
+            this.btnStarEmpty.BackgroundImage = global::KTANEer.Properties.Resources.StarEmpty;
             this.btnStarEmpty.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStarEmpty.Location = new System.Drawing.Point(168, 231);
             this.btnStarEmpty.Name = "btnStarEmpty";
@@ -112,7 +112,7 @@
             // 
             // btnSmiley
             // 
-            this.btnSmiley.BackgroundImage = global::BombThingy.Properties.Resources.Smiley;
+            this.btnSmiley.BackgroundImage = global::KTANEer.Properties.Resources.Smiley;
             this.btnSmiley.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSmiley.Location = new System.Drawing.Point(90, 231);
             this.btnSmiley.Name = "btnSmiley";
@@ -123,7 +123,7 @@
             // 
             // btnSlantedH
             // 
-            this.btnSlantedH.BackgroundImage = global::BombThingy.Properties.Resources.SlantedH;
+            this.btnSlantedH.BackgroundImage = global::KTANEer.Properties.Resources.SlantedH;
             this.btnSlantedH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSlantedH.Location = new System.Drawing.Point(12, 231);
             this.btnSlantedH.Name = "btnSlantedH";
@@ -134,7 +134,7 @@
             // 
             // btnSigma
             // 
-            this.btnSigma.BackgroundImage = global::BombThingy.Properties.Resources.Sigma;
+            this.btnSigma.BackgroundImage = global::KTANEer.Properties.Resources.Sigma;
             this.btnSigma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSigma.Location = new System.Drawing.Point(480, 158);
             this.btnSigma.Name = "btnSigma";
@@ -145,7 +145,7 @@
             // 
             // btnQuestionMark
             // 
-            this.btnQuestionMark.BackgroundImage = global::BombThingy.Properties.Resources.QuestionMark;
+            this.btnQuestionMark.BackgroundImage = global::KTANEer.Properties.Resources.QuestionMark;
             this.btnQuestionMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnQuestionMark.Location = new System.Drawing.Point(402, 158);
             this.btnQuestionMark.Name = "btnQuestionMark";
@@ -156,7 +156,7 @@
             // 
             // btnQStraight
             // 
-            this.btnQStraight.BackgroundImage = global::BombThingy.Properties.Resources.QStraight;
+            this.btnQStraight.BackgroundImage = global::KTANEer.Properties.Resources.QStraight;
             this.btnQStraight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnQStraight.Location = new System.Drawing.Point(324, 158);
             this.btnQStraight.Name = "btnQStraight";
@@ -167,7 +167,7 @@
             // 
             // btnQHandWritten
             // 
-            this.btnQHandWritten.BackgroundImage = global::BombThingy.Properties.Resources.QHandWritten;
+            this.btnQHandWritten.BackgroundImage = global::KTANEer.Properties.Resources.QHandWritten;
             this.btnQHandWritten.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnQHandWritten.Location = new System.Drawing.Point(246, 158);
             this.btnQHandWritten.Name = "btnQHandWritten";
@@ -178,7 +178,7 @@
             // 
             // btnParagraph
             // 
-            this.btnParagraph.BackgroundImage = global::BombThingy.Properties.Resources.Paragraph;
+            this.btnParagraph.BackgroundImage = global::KTANEer.Properties.Resources.Paragraph;
             this.btnParagraph.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnParagraph.Location = new System.Drawing.Point(168, 158);
             this.btnParagraph.Name = "btnParagraph";
@@ -189,7 +189,7 @@
             // 
             // btnOmega
             // 
-            this.btnOmega.BackgroundImage = global::BombThingy.Properties.Resources.Omega;
+            this.btnOmega.BackgroundImage = global::KTANEer.Properties.Resources.Omega;
             this.btnOmega.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnOmega.Location = new System.Drawing.Point(90, 158);
             this.btnOmega.Name = "btnOmega";
@@ -200,7 +200,7 @@
             // 
             // btnNTilted
             // 
-            this.btnNTilted.BackgroundImage = global::BombThingy.Properties.Resources.NTilted;
+            this.btnNTilted.BackgroundImage = global::KTANEer.Properties.Resources.NTilted;
             this.btnNTilted.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNTilted.Location = new System.Drawing.Point(12, 158);
             this.btnNTilted.Name = "btnNTilted";
@@ -211,7 +211,7 @@
             // 
             // btnNReverse
             // 
-            this.btnNReverse.BackgroundImage = global::BombThingy.Properties.Resources.NReverse;
+            this.btnNReverse.BackgroundImage = global::KTANEer.Properties.Resources.NReverse;
             this.btnNReverse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNReverse.Location = new System.Drawing.Point(480, 85);
             this.btnNReverse.Name = "btnNReverse";
@@ -222,7 +222,7 @@
             // 
             // btnMirroredCDot
             // 
-            this.btnMirroredCDot.BackgroundImage = global::BombThingy.Properties.Resources.MirroredCDot;
+            this.btnMirroredCDot.BackgroundImage = global::KTANEer.Properties.Resources.MirroredCDot;
             this.btnMirroredCDot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMirroredCDot.Location = new System.Drawing.Point(402, 85);
             this.btnMirroredCDot.Name = "btnMirroredCDot";
@@ -233,7 +233,7 @@
             // 
             // btnLambda
             // 
-            this.btnLambda.BackgroundImage = global::BombThingy.Properties.Resources.Lambda;
+            this.btnLambda.BackgroundImage = global::KTANEer.Properties.Resources.Lambda;
             this.btnLambda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnLambda.Location = new System.Drawing.Point(324, 85);
             this.btnLambda.Name = "btnLambda";
@@ -244,7 +244,7 @@
             // 
             // btnHHandWritten
             // 
-            this.btnHHandWritten.BackgroundImage = global::BombThingy.Properties.Resources.HHandWritten;
+            this.btnHHandWritten.BackgroundImage = global::KTANEer.Properties.Resources.HHandWritten;
             this.btnHHandWritten.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHHandWritten.Location = new System.Drawing.Point(246, 85);
             this.btnHHandWritten.Name = "btnHHandWritten";
@@ -255,7 +255,7 @@
             // 
             // btnEuro
             // 
-            this.btnEuro.BackgroundImage = global::BombThingy.Properties.Resources.Euro;
+            this.btnEuro.BackgroundImage = global::KTANEer.Properties.Resources.Euro;
             this.btnEuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnEuro.Location = new System.Drawing.Point(168, 85);
             this.btnEuro.Name = "btnEuro";
@@ -266,7 +266,7 @@
             // 
             // btnCopyright
             // 
-            this.btnCopyright.BackgroundImage = global::BombThingy.Properties.Resources.Copyright;
+            this.btnCopyright.BackgroundImage = global::KTANEer.Properties.Resources.Copyright;
             this.btnCopyright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCopyright.Location = new System.Drawing.Point(90, 85);
             this.btnCopyright.Name = "btnCopyright";
@@ -277,7 +277,7 @@
             // 
             // btnCDot
             // 
-            this.btnCDot.BackgroundImage = global::BombThingy.Properties.Resources.CDot;
+            this.btnCDot.BackgroundImage = global::KTANEer.Properties.Resources.CDot;
             this.btnCDot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCDot.Location = new System.Drawing.Point(12, 85);
             this.btnCDot.Name = "btnCDot";
@@ -288,7 +288,7 @@
             // 
             // btnCat
             // 
-            this.btnCat.BackgroundImage = global::BombThingy.Properties.Resources.Cat;
+            this.btnCat.BackgroundImage = global::KTANEer.Properties.Resources.Cat;
             this.btnCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCat.Location = new System.Drawing.Point(480, 12);
             this.btnCat.Name = "btnCat";
@@ -299,7 +299,7 @@
             // 
             // btnbWithT
             // 
-            this.btnbWithT.BackgroundImage = global::BombThingy.Properties.Resources.bWithT;
+            this.btnbWithT.BackgroundImage = global::KTANEer.Properties.Resources.bWithT;
             this.btnbWithT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnbWithT.Location = new System.Drawing.Point(402, 12);
             this.btnbWithT.Name = "btnbWithT";
@@ -310,7 +310,7 @@
             // 
             // btnBoobies
             // 
-            this.btnBoobies.BackgroundImage = global::BombThingy.Properties.Resources.Boobies;
+            this.btnBoobies.BackgroundImage = global::KTANEer.Properties.Resources.Boobies;
             this.btnBoobies.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBoobies.Location = new System.Drawing.Point(324, 12);
             this.btnBoobies.Name = "btnBoobies";
@@ -321,7 +321,7 @@
             // 
             // btnAT
             // 
-            this.btnAT.BackgroundImage = global::BombThingy.Properties.Resources.AT;
+            this.btnAT.BackgroundImage = global::KTANEer.Properties.Resources.AT;
             this.btnAT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAT.Location = new System.Drawing.Point(246, 12);
             this.btnAT.Name = "btnAT";
@@ -332,7 +332,7 @@
             // 
             // btnae
             // 
-            this.btnae.BackgroundImage = global::BombThingy.Properties.Resources.ae;
+            this.btnae.BackgroundImage = global::KTANEer.Properties.Resources.ae;
             this.btnae.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnae.Location = new System.Drawing.Point(168, 12);
             this.btnae.Name = "btnae";
@@ -343,7 +343,7 @@
             // 
             // btn3Snake
             // 
-            this.btn3Snake.BackgroundImage = global::BombThingy.Properties.Resources._3Snake;
+            this.btn3Snake.BackgroundImage = global::KTANEer.Properties.Resources._3Snake;
             this.btn3Snake.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn3Snake.Location = new System.Drawing.Point(90, 12);
             this.btn3Snake.Name = "btn3Snake";
@@ -354,7 +354,7 @@
             // 
             // btn3R
             // 
-            this.btn3R.BackgroundImage = global::BombThingy.Properties.Resources._3R;
+            this.btn3R.BackgroundImage = global::KTANEer.Properties.Resources._3R;
             this.btn3R.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn3R.Location = new System.Drawing.Point(12, 12);
             this.btn3R.Name = "btn3R";

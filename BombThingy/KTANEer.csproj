@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlindAlleyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlindAlleyForm.Designer.cs">
+      <DependentUpon>BlindAlleyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ButtonForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,12 @@
     <Compile Include="SimonSaysForm.Designer.cs">
       <DependentUpon>SimonSaysForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SkewedSlotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkewedSlotsForm.Designer.cs">
+      <DependentUpon>SkewedSlotsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WhosOnFirstForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +144,9 @@
     <Compile Include="Wires.Designer.cs">
       <DependentUpon>Wires.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BlindAlleyForm.resx">
+      <DependentUpon>BlindAlleyForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ButtonForm.resx">
       <DependentUpon>ButtonForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SimonSaysForm.resx">
       <DependentUpon>SimonSaysForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkewedSlotsForm.resx">
+      <DependentUpon>SkewedSlotsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WhosOnFirstForm.resx">
       <DependentUpon>WhosOnFirstForm.cs</DependentUpon>
@@ -359,6 +377,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Knob.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkewedSlots.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkewedSlots1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkewedSlots.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkewedSlots2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlindAlley.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
