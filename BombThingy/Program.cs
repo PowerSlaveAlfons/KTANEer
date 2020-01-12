@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KTANEer
+namespace BombThingy
 {
     static class Program
     {

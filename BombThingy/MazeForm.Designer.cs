@@ -1,4 +1,4 @@
-﻿namespace KTANEer
+﻿namespace BombThingy
 {
     partial class MazeForm
     {
@@ -47,7 +47,7 @@
             // 
             // btnMaze9
             // 
-            this.btnMaze9.BackgroundImage = global::KTANEer.Properties.Resources.Maze9;
+            this.btnMaze9.BackgroundImage = global::BombThingy.Properties.Resources.Maze9;
             this.btnMaze9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze9.Location = new System.Drawing.Point(332, 311);
             this.btnMaze9.Name = "btnMaze9";
@@ -58,7 +58,7 @@
             // 
             // btnMaze8
             // 
-            this.btnMaze8.BackgroundImage = global::KTANEer.Properties.Resources.Maze8;
+            this.btnMaze8.BackgroundImage = global::BombThingy.Properties.Resources.Maze8;
             this.btnMaze8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze8.Location = new System.Drawing.Point(169, 311);
             this.btnMaze8.Name = "btnMaze8";
@@ -69,7 +69,7 @@
             // 
             // btnMaze7
             // 
-            this.btnMaze7.BackgroundImage = global::KTANEer.Properties.Resources.Maze7;
+            this.btnMaze7.BackgroundImage = global::BombThingy.Properties.Resources.Maze7;
             this.btnMaze7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze7.Location = new System.Drawing.Point(11, 311);
             this.btnMaze7.Name = "btnMaze7";
@@ -80,7 +80,7 @@
             // 
             // btnMaze6
             // 
-            this.btnMaze6.BackgroundImage = global::KTANEer.Properties.Resources.Maze6;
+            this.btnMaze6.BackgroundImage = global::BombThingy.Properties.Resources.Maze6;
             this.btnMaze6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze6.Location = new System.Drawing.Point(332, 158);
             this.btnMaze6.Name = "btnMaze6";
@@ -91,7 +91,7 @@
             // 
             // btnMaze5
             // 
-            this.btnMaze5.BackgroundImage = global::KTANEer.Properties.Resources.Maze5;
+            this.btnMaze5.BackgroundImage = global::BombThingy.Properties.Resources.Maze5;
             this.btnMaze5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze5.Location = new System.Drawing.Point(169, 158);
             this.btnMaze5.Name = "btnMaze5";
@@ -102,7 +102,7 @@
             // 
             // btnMaze4
             // 
-            this.btnMaze4.BackgroundImage = global::KTANEer.Properties.Resources.Maze4;
+            this.btnMaze4.BackgroundImage = global::BombThingy.Properties.Resources.Maze4;
             this.btnMaze4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze4.Location = new System.Drawing.Point(11, 158);
             this.btnMaze4.Name = "btnMaze4";
@@ -113,7 +113,7 @@
             // 
             // btnMaze3
             // 
-            this.btnMaze3.BackgroundImage = global::KTANEer.Properties.Resources.Maze3;
+            this.btnMaze3.BackgroundImage = global::BombThingy.Properties.Resources.Maze3;
             this.btnMaze3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze3.Location = new System.Drawing.Point(332, 7);
             this.btnMaze3.Name = "btnMaze3";
@@ -124,7 +124,7 @@
             // 
             // btnMaze2
             // 
-            this.btnMaze2.BackgroundImage = global::KTANEer.Properties.Resources.Maze2;
+            this.btnMaze2.BackgroundImage = global::BombThingy.Properties.Resources.Maze2;
             this.btnMaze2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze2.Location = new System.Drawing.Point(169, 7);
             this.btnMaze2.Name = "btnMaze2";
@@ -135,7 +135,7 @@
             // 
             // btnMaze1
             // 
-            this.btnMaze1.BackgroundImage = global::KTANEer.Properties.Resources.Maze1;
+            this.btnMaze1.BackgroundImage = global::BombThingy.Properties.Resources.Maze1;
             this.btnMaze1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMaze1.Location = new System.Drawing.Point(11, 7);
             this.btnMaze1.Name = "btnMaze1";

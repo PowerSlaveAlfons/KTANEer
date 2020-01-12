@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KTANEer.Properties {
+namespace BombThingy.Properties {
     using System;
     
     

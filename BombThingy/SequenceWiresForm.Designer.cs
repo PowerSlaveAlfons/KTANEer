@@ -1,4 +1,4 @@
-﻿namespace KTANEer
+﻿namespace BombThingy
 {
     partial class SequenceWiresForm
     {

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static KTANEer.Bomb;
+using static BombThingy.Bomb;
 
-namespace KTANEer
+namespace BombThingy
 {
     public partial class InitForm : Form
     {
